@@ -44,12 +44,14 @@ XGBoost (AUPRC: 0.8341)
 
 ### 5. 앙상블(Voting & Stacking)
 
-Ensemble: Voting과 Stacking 기법을 적용하여 모델의 일반화 성능 향상을 시도
+Voting과 Stacking 기법을 적용하여 모델의 일반화 성능 향상을 시도
 
 voting : Random Forest 모델과 XGBoost 모델을 0.3, 0.7의 가중치로 soft voting 진행
 
 
 
-##6. 피처 선택(Feature Selection)
+### 6. 피처 선택(Feature Selection)
+
 Feature Selection: 상관관계 절댓값 기준 하위 5개 컬럼을 노이즈로 판단하여 드롭 후 모델링 진행
+
 AUPRC : 0.8411
