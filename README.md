@@ -38,6 +38,8 @@ Scaling: Amount(거래 금액)와 Time(시간) 변수에 대해 RobustScaler를 
 평가지표: 불균형 데이터셋에 가장 적합한 AUPRC(Area Under the Precision-Recall Curve)를 주지표로 선정
 
 
+
+
 최적 후보 모델 선별 : Random Forest, XGBoost
 
 
@@ -57,6 +59,8 @@ RandomForest (AUPRC: 0.8140)
 {n_estimators: 495, max_depth: 9, min_samples_split: 5, min_samples_leaf: 6, criterion: 'entropy'}
 
 
+
+
 XGBoost (AUPRC: 0.8341)
 
 
@@ -67,6 +71,8 @@ XGBoost (AUPRC: 0.8341)
 ### 5. 앙상블(Voting & Stacking)
 
 Voting과 Stacking 기법을 적용하여 모델의 일반화 성능 향상을 시도
+
+
 
 
 voting : Random Forest 모델과 XGBoost 모델을 0.3, 0.7의 가중치로 soft voting 진행
