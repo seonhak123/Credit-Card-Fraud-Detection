@@ -3,8 +3,10 @@
 ## Dataset
 [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-"본 프로젝트에서 사용된 creditcard.csv 파일은 용량 문제로 레포지토리에 포함하지 않았습니다. 
-해당 링크에서 다운로드하여 소스 코드와 동일한 폴더에 배치해 주시기 바랍니다."
+본 프로젝트에서 사용된 creditcard.csv 파일은 용량 문제로 레포지토리에 포함하지 않았습니다. 
+
+
+해당 링크에서 다운로드하여 소스 코드와 동일한 폴더에 배치해 주시기 바랍니다.
 
 ## Environment & Setup
 * **Operating System**: Ubuntu 22.04.5 LTS (Google Colab Environment)
