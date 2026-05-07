@@ -7,10 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1V7lIOCKiJXjxPYKkBxr-RuSIos7TuVyt
 """
 
-!pip install lightgbm
-!pip install optuna
 
-from google.colab import drive
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -31,6 +29,8 @@ from sklearn.metrics import precision_recall_curve
 
 df = pd.read_csv('creditcard.csv')
 
+
+'''
 """# EDA"""
 
 df.shape
@@ -98,6 +98,7 @@ sns.boxplot(x="Class", y="V10", data=df, ax=axes[3])
 axes[3].set_title('V10 vs Class Negative Correlation')
 
 plt.show()
+'''
 
 #Amount, Time 칼럼 스케일링
 rob_scaler = RobustScaler()
