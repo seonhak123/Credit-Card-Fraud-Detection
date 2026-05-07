@@ -1,9 +1,17 @@
 # Credit-Card-Fraud-Detection
 
-### Dataset
+## Dataset
 [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
+## Environment & Setup
+* **Operating System**: Ubuntu 22.04.5 LTS (Google Colab Environment)
+* **Python Version**: 3.12.13
+* **Installation**: 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
+## 과정
 ### 1. 데이터 탐색 및 전처리 (EDA & Scaling)
 
 EDA: 타겟 변수인 Class 분포 분석을 통해 데이터 불균형 상태(0.17%)를 확인
