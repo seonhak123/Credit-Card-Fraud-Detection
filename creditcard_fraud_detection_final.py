@@ -64,11 +64,13 @@ fig, ax = plt.subplots(figsize=(12,10))
 sns.heatmap(df.corr(), cmap='coolwarm_r', annot_kws={'size':20}, ax=ax)
 ax.set_title("Correlation Matrix", fontsize=14)
 plt.show()
+'''
 
 #Class 컬럼과의 상관계수만 추출
 corr_matrix = df.corr()
 class_corr = corr_matrix['Class'].sort_values(ascending=False)
 
+'''
 plt.figure(figsize=(10, 12))
 class_corr.drop('Class').plot(kind='barh')
 
