@@ -13,7 +13,7 @@
 * **Python Version**: 3.12.13
 * **Installation**: 
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirement.txt
     ```
 
 ## 과정
